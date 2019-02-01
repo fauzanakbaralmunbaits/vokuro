@@ -144,6 +144,6 @@ class SessionController extends ControllerBase
     {
         $this->auth->remove();
 
-        return $this->response->redirect('index');
+        return $this->response->redirect('_phalcon/vokuro/');
     }
 }
